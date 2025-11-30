@@ -26,7 +26,12 @@ export default function socialMedia(props) {
             rel="noopener noreferrer"
           >
             <IconWrapper {...media} {...props}>
-              <i className={`fab ${media.fontAwesomeIcon}`}></i>
+              {(() => {
+                const isMail = media.link && media.link.startsWith("mailto");
+                const prefix = media.iconPrefix ? media.iconPrefix : isMail ? "fas" : "fab";
+                const iconClass = `${prefix} ${media.fontAwesomeIcon}`;
+                return <i className={iconClass}></i>;
+              })()}
             </IconWrapper>
             {/* <span></span> */}
           </a>

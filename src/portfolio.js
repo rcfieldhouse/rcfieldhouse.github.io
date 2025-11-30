@@ -11,7 +11,7 @@ const seo = {
   og: {
     title: "Ryan Fieldhouse Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url:"https://rcfieldhouse.github.io/masterPortfolio/",
   },
 };
 
@@ -21,11 +21,11 @@ const greeting = {
   logo_name: "Ryan Fieldhouse",
   nickname: "Software Engineer",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Software Engineer with 5 years of experience ",
   resumeLink:
     "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+  portfolio_repository: "https://github.com/rcfieldhouse",
+  githubProfile: "https://github.com/rcfieldhouse",
 };
 
 const socialMediaLinks = [

@@ -78,34 +78,51 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
+      title: "Gameplay Programming",
+      fileName: "FullStackImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Developing highly scalable and robust game features across various genres of games",
+        "⚡ Creating unique player control mechanics to enhance player engagement and retention",
+        "⚡ Programming real time world simulations and interactions using physics",
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "C++",
+          fontAwesomeClassname: "logos-c-plusplus",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
+          skillName: "C#",
+          fontAwesomeClassname: "logos-c-sharp",
           style: {
-            backgroundColor: "white",
-            color: "#D00000",
+            backgroundColor: "transparent",
           },
         },
         {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          skillName: "Unreal Engine 5",
+          fontAwesomeClassname: "simple-icons:unrealengine",
+          imageSrc: "unreal_logo.svg",
           style: {
             backgroundColor: "transparent",
+            color: "#000000ff",
+          },
+        },
+        {
+          skillName: "Unity",
+          fontAwesomeClassname: "simple-icons:unity",
+          imageSrc: "unity_logo.svg",
+          style: {
+            backgroundColor: "transparent",
+              color: "#000000ff",
+          },
+        },
+       {
+          skillName: "HTML5",
+          fontAwesomeClassname: "simple-icons:html5",
+          style: {
+            color: "#E34F26",
           },
         },
         {
@@ -116,109 +133,41 @@ const skills = {
             color: "#3776AB",
           },
         },
-        {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
-        },
       ],
     },
     {
-      title: "Full Stack Development",
-      fileName: "FullStackImg",
+      title: "AI Development",
+      fileName: "DataScienceImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Creating AI systems for NPCs and Enemies using behavior trees and state systems", 
+        "⚡ Programming of AI techniques such as Pathfinding, Steering Behaviors and Fuzzy Logic",
+        "⚡ Development of perception systems for AI using Raycasting and FOV algorithms",
       ],
       softwareSkills: [
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
+          skillName: "Behavior Trees",
+          fontAwesomeClassname: "fa-sitemap",
           style: {
-            color: "#E34F26",
+         backgroundColor: "transparent",
           },
         },
         {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
+          skillName: "State Machines",
+          fontAwesomeClassname: "fa-retweet",
           style: {
-            color: "#1572B6",
+            backgroundColor: "transparent",
           },
         },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
+         {
+          skillName: "Pathfinding",
+          fontAwesomeClassname: "fa-compass",
+        
         },
         {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
+          skillName: "Perception Systems",
+          fontAwesomeClassname: "fa-eye",
           style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
-      ],
-    },
-    {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
-      ],
-      softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
+            backgroundColor: "transparent",
           },
         },
         {
@@ -235,13 +184,41 @@ const skills = {
             color: "#0089D6",
           },
         },
-        {
+          {
           skillName: "Firebase",
           fontAwesomeClassname: "simple-icons:firebase",
           style: {
             color: "#FFCA28",
           },
         },
+      ],
+    },
+    {
+      title: "Animation Programing & Implementation",
+      fileName: "CloudInfraImg",
+      skills: [
+        "⚡ Experience working on multiple cloud platforms",
+        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
+        "⚡ Deploying deep learning models on cloud to use on mobile devices",
+        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Blender",
+          fontAwesomeClassname: "simple-icons:blender",
+          style: {
+            color: "#EA7600",
+          },
+        },
+        {
+          skillName: "Krita",
+          fontAwesomeClassname: "simple-icons:krita",
+          style: {
+            color: "#FF9900",
+          },
+        },
+        
+      
         {
           skillName: "PostgreSQL",
           fontAwesomeClassname: "simple-icons:postgresql",
@@ -371,11 +348,11 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - 2020",
+      title: "Ontario Tech University",
+      subtitle: "B.IT. in Game Development",
+      logo_path: "OTU.png",
+      alt_name: "Ontario Tech University",
+      duration: "2020 - 2024",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
         "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",

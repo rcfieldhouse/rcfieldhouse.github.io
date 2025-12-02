@@ -1,6 +1,6 @@
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -197,11 +197,10 @@ const skills = {
       title: "Animation Programing & Implementation",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
-      ],
+        "⚡ Experience working on animation state machines for character and creature rigs",
+        "⚡ Implementing inverse kinematics (IK) and procedural animation techniques",
+        "⚡ Scripting of animation events and transitions ",
+      ],  
       softwareSkills: [
         {
           skillName: "Blender",
@@ -214,37 +213,23 @@ const skills = {
           skillName: "Krita",
           fontAwesomeClassname: "simple-icons:krita",
           style: {
-            color: "#FF9900",
+            color: "#000000",
           },
         },
         
       
         {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
+          skillName: "autodesk",
+          fontAwesomeClassname: "simple-icons:autodesk",
           style: {
-            color: "#336791",
+            color: "#000000",
           },
         },
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
+          skillName: "Adobe",
+          fontAwesomeClassname: "simple-icons:adobe",
           style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
+            color: "#ED2224 ",
           },
         },
       ],
@@ -253,8 +238,8 @@ const skills = {
       title: "UI/UX Design",
       fileName: "DesignImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
+        "⚡ Designing user interface for mobile, web and pc applications",
+        "⚡ Creation of Main Menu UI, HUD and Pause Menu for games",
         "⚡ Creating the flow of application functionalities to optimize user experience",
       ],
       softwareSkills: [
@@ -349,16 +334,16 @@ const degrees = {
   degrees: [
     {
       title: "Ontario Tech University",
-      subtitle: "B.IT. in Game Development",
+      subtitle: "B.IT.  Game Development & Entrepreneurship",
       logo_path: "OTU.png",
       alt_name: "Ontario Tech University",
       duration: "2020 - 2024",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ Completed coursework in Data Structures, Algorithms, AI / Machine Learning , Web Development, Design Patterns, and Computer Architecture",
+        "⚡ Gained experience across key Game Development disciplines such as Gameplay Programming, 3D Modeling, Animation, and Level Design.",
+        "⚡ Developed multiple game projects during university; several are showcased on my Itch.io profile.",
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "https://ontariotechu.ca/",
     },
     {
       title: "Indiana University Bloomington",

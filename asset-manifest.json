@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.7f1dc4bd.chunk.css",
-    "main.js": "/static/js/main.185aa792.chunk.js",
-    "main.js.map": "/static/js/main.185aa792.chunk.js.map",
+    "main.css": "/static/css/main.b48d80b0.chunk.css",
+    "main.js": "/static/js/main.03c76648.chunk.js",
+    "main.js.map": "/static/js/main.03c76648.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.60b37189.js",
     "runtime-main.js.map": "/static/js/runtime-main.60b37189.js.map",
-    "static/js/2.6ef2b2a1.chunk.js": "/static/js/2.6ef2b2a1.chunk.js",
-    "static/js/2.6ef2b2a1.chunk.js.map": "/static/js/2.6ef2b2a1.chunk.js.map",
+    "static/js/2.b9344472.chunk.js": "/static/js/2.b9344472.chunk.js",
+    "static/js/2.b9344472.chunk.js.map": "/static/js/2.b9344472.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8ff1476c43225c5632bbbb837b9adcd0.js": "/precache-manifest.8ff1476c43225c5632bbbb837b9adcd0.js",
+    "precache-manifest.7ee4c132f715e581c34be2d56aa949b6.js": "/precache-manifest.7ee4c132f715e581c34be2d56aa949b6.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.7f1dc4bd.chunk.css.map": "/static/css/main.7f1dc4bd.chunk.css.map",
+    "static/css/main.b48d80b0.chunk.css.map": "/static/css/main.b48d80b0.chunk.css.map",
     "static/media/Adobe_Logo.png": "/static/media/Adobe_Logo.5774285a.png",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/B2BC.png": "/static/media/B2BC.c7f74789.png",
@@ -27,11 +27,15 @@
     "static/media/HeadlessJeff_Logo.png": "/static/media/HeadlessJeff_Logo.e5c1b9e0.png",
     "static/media/HeadlessJeff_bg.png": "/static/media/HeadlessJeff_bg.57de07c9.png",
     "static/media/HeadshotPC.png": "/static/media/HeadshotPC.3ebf60d8.png",
+    "static/media/ILS_Logo.png": "/static/media/ILS_Logo.c0b43257.png",
+    "static/media/InsanityCorr_Logo.png": "/static/media/InsanityCorr_Logo.dbbde84f.png",
     "static/media/IntoTheFire_Logo.png": "/static/media/IntoTheFire_Logo.79bca763.png",
     "static/media/IntoTheFire_bg.png": "/static/media/IntoTheFire_bg.5465ef9b.png",
     "static/media/JS_Logo.png": "/static/media/JS_Logo.94a4baf3.png",
     "static/media/KillCode_Logo.png": "/static/media/KillCode_Logo.ae63c553.png",
     "static/media/KillCode_bg.png": "/static/media/KillCode_bg.bf2cab0b.png",
+    "static/media/MEGABYTE_Logo.png": "/static/media/MEGABYTE_Logo.9e3327c2.png",
+    "static/media/MEGABYTE_Logo.jpg": "/static/media/MEGABYTE_Logo.d11fb2e1.jpg",
     "static/media/MHS.png": "/static/media/MHS.bad5121f.png",
     "static/media/OTU.png": "/static/media/OTU.2e7c9134.png",
     "static/media/Synthesis_Logo.png": "/static/media/Synthesis_Logo.d5c0591d.png",
@@ -80,8 +84,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.60b37189.js",
-    "static/js/2.6ef2b2a1.chunk.js",
-    "static/css/main.7f1dc4bd.chunk.css",
-    "static/js/main.185aa792.chunk.js"
+    "static/js/2.b9344472.chunk.js",
+    "static/css/main.b48d80b0.chunk.css",
+    "static/js/main.03c76648.chunk.js"
   ]
 }
